@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Dashboard from './pages/Dashboard'
+import App from './App';
+
+// import "./assets/fonts/Roboto/Roboto-Regular.ttf";
+// import "./assets/fonts/Roboto/Roboto-Bold.ttf";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Dashboard />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -6,7 +6,9 @@ const App: React.FC = () => {
   return (
     <>
       <GlobalStyles />
-      <Layout />
+      <Layout> 
+
+      </Layout>
     </>
   );
 };
